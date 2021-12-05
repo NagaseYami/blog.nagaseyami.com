@@ -61,6 +61,16 @@ echo `{"registry-mirrors":["https://docker.mirrors.ustc.edu.cn/","https://hub-mi
 
 安装后就能从unraid的WebUI界面里直接浏览下载社区插件了
 
+### CA User Scripts
+
+- [社区论坛帖](https://forums.unraid.net/topic/48286-plugin-ca-user-scripts/)
+- 安装链接
+  - `https://raw.githubusercontent.com/Squidly271/user.scripts/master/plugins/user.scripts.plg`
+
+如果你有些需要定期执行的自定义脚本，那这个插件很合适  
+相当于给你的脚本提供了一个简易的前端  
+你也可以来[这里](https://forums.unraid.net/topic/48707-additional-scripts-for-userscripts-plugin/)看看别人写的优秀脚本
+
 ### Unassigned Devices
 
 - [社区论坛贴](https://forums.unraid.net/topic/92462-unassigned-devices-managing-disk-drives-and-remote-shares-outside-of-the-unraid-array/)
@@ -105,6 +115,13 @@ unraid是基于Slackware的，所以不存在apt或者yum这种Package Manager
 可以方便直观地查看哪些进程在使用哪些文件，以及这些被占用的文件会不会影响关机/停止整列
 
 ## Docker
+
+### portainer/portainer-ce
+
+- [文档](https://docs.portainer.io/)
+
+Docker管理GUI，推荐直接从unriad社区应用里下载  
+部分功能比unraid自带的要好用一些，可装可不装
 
 ### crazymax/ddns-route53
 
