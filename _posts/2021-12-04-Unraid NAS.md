@@ -102,7 +102,7 @@ unraid是基于Slackware的，所以不存在apt或者yum这种Package Manager
 - 安装链接
   - `https://raw.githubusercontent.com/dlandon/open.files/master/open.files.plg`
 
-可以方便直观地查看那些进程目前在使用哪些文件，以及这些被占用的文件会不会影响关机/停止整列
+可以方便直观地查看哪些进程在使用哪些文件，以及这些被占用的文件会不会影响关机/停止整列
 
 ## Docker
 
