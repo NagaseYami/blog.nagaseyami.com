@@ -140,11 +140,12 @@ Docker管理GUI，推荐直接从unriad社区应用里下载
 由于国内禁止80和443端口，所以默认使用HTTP challenge和TLS-ALPN challenge的Caddy2就没法正常申请证书了，得用DNS challenge  
 拿来当反向代理的入口
 
-### netlah/crushftp
+### drakkan/sftpgo
 
-- [文档](https://hub.docker.com/r/netlah/crushftp)
+- [文档](https://github.com/drakkan/sftpgo)
 
-MFT(Managed File Transfer)方案  支持FTP/S、SFTP、HTTP/S(WebDAV)，企业级用户管理  
+MFT(Managed File Transfer)方案  
+支持FTP/S、SFTP、WebDAV、HTTP/S、拥有完善的用户管理  
 
 ### johngong/qbittorrent
 
@@ -160,3 +161,7 @@ BT下载
 FTP客户端  
 有时候从FTP服务器下一些比较大的文件又不想开一晚上电脑，就让NAS帮我下了
 > 默认中日韩（CJK）文字乱码，可以通过环境变量安装CJK字体，具体看文档
+
+## 参考资料
+
+[Awesome Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
